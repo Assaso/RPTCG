@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Registro</string>
+    <string name="national">Nacional</string>
+    <string name="mega">Mega</string>
+    <string name="regional">Alola</string>
+    <string name="exit">Salir</string>
+    <string name="add">Agregar</string>
+    <string name="list">Lista</string>
+    <string name="search">Buscar</string>
+</resources>

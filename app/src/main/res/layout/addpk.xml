@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etrno"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:maxLength="3"
+        android:hint="NUMERO"
+        android:inputType="number"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etrna"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:maxLength="10"
+        android:hint="NOMBRE 1th CHAR. CAPS"
+        android:layout_below="@+id/etrno"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sqa"
+        android:layout_below="@+id/etrna"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar"
+        android:id="@+id/btadd"
+        android:layout_below="@+id/sqa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvadd"
+        android:layout_below="@+id/btadd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+</RelativeLayout>

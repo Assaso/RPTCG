@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/principal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="bullfactory.rptcg.Principal"
+    android:background="@drawable/s001">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/national"
+        android:textSize="30sp"
+        android:id="@+id/national"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="134dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/mega"
+        android:textSize="30sp"
+        android:id="@+id/mega"
+        android:layout_below="@+id/national"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/regional"
+        android:textSize="30sp"
+        android:id="@+id/regional"
+        android:layout_below="@+id/mega"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/exit_principal"
+        android:layout_below="@+id/regional"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/b00" />
+
+
+</RelativeLayout>
